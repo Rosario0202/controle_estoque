@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD System</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
+   
+</head>
+<body class="bg-dark">
+
+    <div class="container mt-5">
+        <h2 class="text-light text-center">CONTROLE DE ESTOQUE</h2>
+
+        <!-- Formulário para adicionar/Editar Insumos -->
+        <div class="card mt-4">
+            <div class="card-header">Adicionar Insumo</div>
+            <div class="card-body d-flex justify-content-around align-items-center gap-2">
+                <form class="w-75" method="POST">
+                    <input type="hidden" name="user_id" id="user_id" value="">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" class="form-control " id="name" name="nome" placeholder="Nome do Produto"  required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lote">Lote:</label>
+                        <input type="number" class="form-control " id="lote" name="lote" placeholder="Numero do lote" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="validade">Validade:</label>
+                        <input type="date" class="form-control " id="validade" name="validade" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade:</label>
+                        <input type="number" class="form-control " id="quantidade" name="quantidade" placeholder="ex: 42" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary " name="save" >Salvar</button>
+                </form>
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/3176/3176088.png" width="280px"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lista de Insumos -->
+        <div class="card mt-4">
+            <div class="card-header">Lista de Insumos</div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Lote</th>
+                            <th>Validade</th>
+                            <th>Quantidade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
