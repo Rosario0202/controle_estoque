@@ -13,7 +13,7 @@ li > a {
 }
 
 header {
-    border-bottom: 1px solid  rgb(84, 7, 146);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.425);
     padding: 1rem 1.5rem;
 }
 
@@ -22,7 +22,7 @@ section {
 }
 
 footer {
-    border-top: 1px solid  rgb(84, 7, 146);
+    border-top: 1px solid rgba(255, 255, 255, 0.425);
     padding: 0.5rem 1.5rem;
 }
 
@@ -39,4 +39,15 @@ section > form > div {
     height: 94px;
     width: 304.53px;
     margin: 0;
+}
+
+.btnExcluir, .btnEdit {
+    width: 20px;
+    cursor: pointer;
+
+    transition: transform .3s ease-in-out;
+}
+
+.btnExcluir:hover, .btnEdit:hover {
+    transform: scale(1.1);
 }

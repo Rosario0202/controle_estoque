@@ -47,10 +47,16 @@ input{
     width:100%;
     border:none;
     padding:15px;
-    color:aliceblue;
-    font-size: 15px;
     cursor:pointer;
     border-radius: 10px;
+}
+
+button > a {
+
+    color:aliceblue;
+    text-decoration:none;
+    font-size: 15px;
+
 }
 
 #logar:hover{
