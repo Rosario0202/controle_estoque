@@ -1,5 +1,5 @@
 function listar() {
-    fetch("https://localhost:44385/api/Produto", {
+    fetch("https://localhost:44354/api/Produto", {
         method: "GET",
         mode: 'cors',
         headers: {

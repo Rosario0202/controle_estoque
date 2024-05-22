@@ -58,3 +58,51 @@ legend{
     font-size:16px;
     color: rgb(84, 7, 146);
 }
+
+.botoesNav{
+
+    width: 100%;
+    display:flex;
+    gap:5px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.botoesNav > button {
+
+    background-image:linear-gradient(to right,rgb(127, 57, 197),rgb(76, 37, 185)) ;
+    border:none;
+    padding:15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:all .3s ease-in-out;
+}
+
+.botoesNav > button:hover{
+
+    background-image: linear-gradient(to right,rgb(69, 11, 128),rgb(58, 15, 212));
+
+}
+
+.botoesNav > button > a{
+
+    color:aliceblue;
+    font-size:15px;
+    text-decoration: none;    
+}
+
+.botoesNav > div > a{
+
+    color:rgba(255, 255, 255, 0.342);
+    text-decoration: none;
+    
+}
+
+.botoesNav > div > a:hover{
+
+    color:white;
+} 
+
+
+

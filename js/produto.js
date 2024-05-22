@@ -7,7 +7,7 @@ export function cadastrar(nomeProduto, dataValidade, quantidade, lote, tipoProdu
         "tipoProduto": tipoProduto
     }
 
-    fetch("https://localhost:44385/api/Produto", {
+    fetch("https://localhost:44354/api/Produto", {
         method: "POST",
         mode: 'cors',
         headers: {
