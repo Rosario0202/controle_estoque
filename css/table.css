@@ -1,0 +1,21 @@
+.dt-layout-cell.dt-start {
+    color: rgb(216, 216, 216);
+}
+
+.dt-layout-cell.dt-end  {
+    color: rgb(216, 216, 216);
+}
+
+.dt-length {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dt-search > label {
+    margin-right: 0.5rem;
+}
+
+#actions {
+    text-align: end;
+}
