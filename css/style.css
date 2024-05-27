@@ -41,13 +41,13 @@ section > form > div {
     margin: 0;
 }
 
-#btnExcluir {
+#btnExcluir, #btnEdit {
     width: 20px;
     cursor: pointer;
 
     transition: transform .3s ease-in-out;
 }
 
-#btnExcluir:hover {
+#btnExcluir:hover, #btnEdit:hover {
     transform: scale(1.1);
 }

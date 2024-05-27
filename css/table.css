@@ -16,6 +16,14 @@
     margin-right: 0.5rem;
 }
 
-#actions {
-    text-align: end;
+.table.table-dark.table-striped.dataTable th, .table.table-dark.table-striped.dataTable td  {
+    text-align: start;
+}
+
+.table.table-dark.table-striped.dataTable > thead > tr > th {
+    width: 15%;
+}
+
+#actions img:nth-child(1)  {
+    margin-right: 3px;
 }
